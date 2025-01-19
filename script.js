@@ -1,11 +1,12 @@
 function firstWord(s) {
   // your code here
-	if (!inputString || !inputString.includes(' ')) {
-    return inputString;  // Return the entire string
+	s=s.trim();
+	if (!s || !s.includes(' ')) {
+    return s;  // Return the entire string
   }
 
-  // Split the string at the first space and return the first word
-  return inputString.split(' ')[0];
+	// Split the string at the first space and return the first word
+  return s.split(' ')[0];
 }
 
 // Do not change the code below
