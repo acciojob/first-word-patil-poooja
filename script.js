@@ -1,12 +1,11 @@
 function firstWord(s) {
   // your code here
-	if(s.indexOf(" ")===-1){
-		return s;
-	}
-else{
-		const word = s.split(" ")[0];
-		return word;
-	};
+	if (!inputString || !inputString.includes(' ')) {
+    return inputString;  // Return the entire string
+  }
+
+  // Split the string at the first space and return the first word
+  return inputString.split(' ')[0];
 }
 
 // Do not change the code below
