@@ -2,8 +2,8 @@ function firstWord(s) {
   // your code here
 	if(s.indexOf(" ")===-1){
 		return s;
-	};
-	else{
+	}
+else{
 		const word = s.split(" ")[0];
 		return word;
 	};
